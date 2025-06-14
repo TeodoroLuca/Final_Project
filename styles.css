@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+#info {
+    font-size: 2rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+h1  {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+h2  {
+    
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+.set {
+    margin: 10% auto;
+}
+
+.a {
+    background-image: url("./images/crash.png");
+}
+
+.s {
+    background-image: url("./images/tom1.png");
+}
+
+.d {
+    background-image: url("./images/snare.png");
+}
+
+.g {
+    background-image: url("./images/kickbass.png");
+}
+
+.j {
+    background-image: url("./images/tom3.png");
+}
+
+.k {
+    background-image: url("./images/tom2.png");
+}
+
+.l {
+    background-image: url("./images/crash.png");
+}
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}
+
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #777;
+    transform: scale(0.95);
+    background-color: #ddd;
+}
+
+/*Estilo de notas do clarinete */
+
+.clarinet-set {
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.notas {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+    color: #04aefd;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 2;
+    display: inline-block;
+    margin: 10px;
+    background-color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+.notas:hover {
+    cursor: pointer;
+    background-color: #0419f9;  
+    color: white;                
+    transform: scale(1.05);     
+    box-shadow: 0 6px 10px rgba(3, 15, 232, 0.6); 
+    transition: all 0.2s ease-in-out;
+}
+
+.notas.pressed {
+    box-shadow: 0 3px 4px 0 #777;
+    transform: scale(0.95);
+    background-color: #ddd;
+    color: #0c69ff;
+}
