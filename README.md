@@ -10,11 +10,11 @@ Navegue entre os instrumentos usando a navegação simples e intuitiva, e aprove
 
 Tecnologias utilizadas
 HTML5
-
 CSS3
-
 JavaScript (para interação dos instrumentos, se aplicável)
 
 Sobre o desenvolvedor
 Projeto desenvolvido por Lucas Teodoro.
 ©️ Todos os direitos reservados.
+
+Acesse: https://teodoroluca.github.io/Final_Project/
